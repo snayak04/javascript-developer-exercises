@@ -21,7 +21,10 @@ Place your code that does all of this below this comment block, and
 before the next comment block.
 */
 // PLACE YOUR CODE BELOW
-
+const trim = () =>{
+  wordList = words.map(x => x.substring(1,3)).join(", ");
+}
+trim();
 // PLACE YOUR CODE ABOVE
 /*
 When run with "node 1_strings.js" you should see the following on
@@ -31,5 +34,5 @@ Success
 at, on, in, up, to
 */
 
-wordList === 'at, on, in, up, to' && console.log('Success')
+wordList === 'at, on, in, up, to' && console.log('Success');
 console.log(wordList)

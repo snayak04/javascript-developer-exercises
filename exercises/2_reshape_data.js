@@ -68,7 +68,8 @@ function flattenRideshareArray(array) {
     initialArray into an array that is equal to expectedArray
     */
     // PLACE YOUR CODE BELOW
-
+   return  { rideShareId: element.rideShareId,
+      numberMembers: element.members.length }
     // PLACE YOUR CODE ABOVE
   })
 
